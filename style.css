@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;    
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px;
+}
+
+.logo {
+   height: 60px;
+}
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    gap: 30px
+}
+
+nav a {
+    font-family: 'sarala', sans-serif;
+    color: #FFF2E7;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+
+
+.principal{
+    display: flex;
+    justify-content: space-around;
+    border-top: 0.6px solid rgba(255, 255, 255, 0.179);
+    align-items: center;
+    align-content: center;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+h1{
+    font-family: 'Righteous', cursive;
+    color: #FFF2E7;
+    font-size: 35px;
+}
+
+h2{
+    font-family: 'Sarala', sans-serif;
+    color: #ECD6C4;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+button{
+    font-family: 'Sarala', sans-serif;
+    color: #2F2325;
+    font-size: 18px;
+    background-color: #ECD6C4;
+    border: none;
+    width:130px ;
+    height:45px;
+    border-radius: 15px;
+    box-shadow: 5px 7px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+.logo-balle{
+    width: 370px;
+}
+
+.sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    gap: 25px;
+    padding-bottom: 50px;
+}
+
+h3{
+    font-family: 'Righteous', cursive;
+    color: #FFF2E7;
+    font-weight: 400;
+    border-top: 0.6px solid rgba(255, 255, 255, 0.179);
+    padding-top: 60px;
+}
+
+
+.sobre div{
+    font-family: 'Sarala', sans-serif; 
+    color: #ECD6C4;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+}
+
+footer{
+    text-align: center;
+    padding: 50px;
+    border-top: 0.6px solid rgba(255, 255, 255, 0.179);
+} 
