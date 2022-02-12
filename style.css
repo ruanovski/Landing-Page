@@ -6,11 +6,12 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+
 }
 
 body{
     font-size: 100%;    
-    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+    background: linear-gradient(50deg, #433F43 45%, #8AC9FE 130% );
 }
 
 header{
@@ -19,10 +20,13 @@ header{
     justify-content: space-around;
     align-items: center;
     padding: 24px;
+    gap: 290px;
 }
 
 .logo {
    height: 60px;
+   filter: drop-shadow(0.2rem 0.2rem 1.5rem  black);
+   cursor:pointer
 }
 
 
@@ -59,6 +63,7 @@ h1{
     font-family: 'Righteous', cursive;
     color: #FFF2E7;
     font-size: 35px;
+    text-shadow: 0.1em 0.2em 0.8em  black ;
 }
 
 h2{
@@ -81,8 +86,9 @@ button{
     cursor: pointer;
 }
 
-.logo-balle{
+.logo-robot{
     width: 370px;
+    padding-top: 50px
 }
 
 .sobre{
@@ -113,6 +119,15 @@ h3{
 
 footer{
     text-align: center;
-    padding: 50px;
+    padding:  35px 50px 14px 50px;
     border-top: 0.6px solid rgba(255, 255, 255, 0.179);
 } 
+
+.jarvis-footer{
+    height: 70px;
+    
+}
+
+.logo-robot {
+   filter: drop-shadow(1rem 1rem 3rem black);
+  }
